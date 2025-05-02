@@ -19,8 +19,12 @@ const Navbar = () => {
                 </ul>
         </div>
         <div className='flex gap-3'>
-                <button className="login bg-gray-200 p-4 rounded-full font-bold cursor-pointer">Log in</button>
-                <button className="signup bg-gray-900 text-white font-bold p-4 rounded-full cursor-pointer"> Sign up free</button>
+             
+
+              <Link href="/login"><button className="login bg-gray-200 p-4 rounded-full font-bold cursor-pointer">Log in</button></Link>
+              <Link href="/signup"><button className="login bg-gray-600 p-4 rounded-full font-bold cursor-pointer">Sign up free</button></Link>
+
+               
             </div>
       
     </nav>}
