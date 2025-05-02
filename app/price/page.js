@@ -1,4 +1,5 @@
 import React from "react";
+import "tailwindcss";
 
 export default function PricingPage() {
   const plans = [
@@ -71,8 +72,8 @@ export default function PricingPage() {
               <button
                 className={`w-full py-3 px-4 rounded-xl font-semibold ${
                   plan.highlight
-                    ? "bg-slate-800 text-white hover:bg-gray-700 cursor-pointer"
-                    : "bg-gray-200 text-gray-800 hover:bg-gray-300 cursor-pointer"
+                    ? "bg-slate-800 text-white hover:bg-gray-900 cursor-pointer"
+                    : "bg-gray-200 text-gray-800 hover:bg-gray-900 cursor-pointer"
                 } transition duration-300`}
               >
                 {plan.cta}

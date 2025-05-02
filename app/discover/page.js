@@ -49,6 +49,7 @@
 import React from "react";
 
 export default function DiscoverPage() {
+ 
   const items = [
     {
       title: "Top Creators",

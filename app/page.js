@@ -6,11 +6,11 @@ export default function Home() {
 
   const router = useRouter()
  
-
+  // generate?handle=
   
   const createTree = () => { 
     
-    router.push(`/generate?handle=`)
+    router.push(`/generate`)
   }
   return (
     <main>
@@ -22,7 +22,7 @@ export default function Home() {
       <p className="text-[rgb(210_232_35)] text-xl my-4">Join 50M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
       <div className="input flex gap-2">
      
-        <button onClick={()=> createTree()} className="bg-[#e9c0e9] rounded-full px-4 py-4 font-semibold cursor-pointer">Craete your Linktree</button>
+        <button onClick={()=> createTree()} className="bg-[#e9c0e9] rounded-full px-4 py-4 font-semibold cursor-pointer">Create your Linktree</button>
       </div>
     </div>
     <div className="flex items-center justify-center flex-col mr-[1vw]">
